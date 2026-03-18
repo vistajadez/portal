@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JLM - Author Portal Coming Soon</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+  </head>
+  <body id="top"><div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">Jason L Melendez</h3>
+          <nav class="nav nav-masthead">
+            <a class="nav-link nav-social" href="https://x.com/jasonlmelendez" target="_blank" title="Follow me on X">
+              <img src="img/icons/x.svg" alt="" width="18" height="18">
+            </a>
+            <a class="nav-link nav-social" href="https://www.instagram.com/vistajadez" target="_blank" title="Follow me on Instagram">
+              <img src="img/icons/instagram.svg" alt="" width="18" height="18">
+            </a>
+            <a class="nav-link nav-social" href="https://substack.com/@jadez" target="_blank" title="Subscribe on Substack">
+              <img src="img/icons/substack.svg" alt="" width="18" height="18">
+            </a>
+            <a class="nav-link nav-social" href="https://buymeacoffee.com/jasonmelendez" target="_blank" title="Buy me a Coffee">
+              <img src="img/icons/buymeacoffee.svg" alt="" width="18" height="18">
+            </a>
+          </nav>
+        </div>
+      </div>
+      <div class="inner cover">
+        <h1 class="cover-heading">Author Portal Coming Soon</h1>
+        <p class="lead cover-copy">Sign up below to get notified when Jason's new author portal launches. Welcome to the reader community!</p>
+        <p class="lead"><button type="button" class="btn btn-lg btn-default btn-notify" data-toggle="modal" data-target="#subscribeModal">Notify Me</button></p>
+      </div>
+      <div class="mastfoot">
+        <div class="inner">
+          <p>&copy; <script>document.write(/\d{4}/.exec(Date())[0])</script> Jason L Melendez</p>
+        </div>
+      </div>
+      <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="subscribeModalLabel">Join the List!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <form id="subscribeForm" novalidate>
+              <div class="modal-body">
+                  <div class="form-group">
+                    <label for="recipient-name" class="form-control-label">Enter your e-mail to get notified when I launch my portal:</label>
+                    <!-- <input type="text" class="form-control" id="recipient-name" placeholder="your-name@example.com"> -->
+                    <input name="email" class="form-control" type="email" id="recipient-name" required>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-default">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+    <script src="scripts/jquery.slim.min.js?ver=1.2.0"></script>
+    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="scripts/config.js?ver=1.2.0"></script>
+    <script src="scripts/notify-form.js?ver=1.2.0"></script>
+    <script src="scripts/main.js?ver=1.2.0"></script>
+  </body>
+</html>
