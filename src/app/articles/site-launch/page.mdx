@@ -1,0 +1,23 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Jason L Melendez',
+  date: '2026-08-06',
+  title: 'Introducing my new online hub',
+  description:
+    "I'm happy to announce the launch of my new website, where I'll keep all the up-to-date deets on my latest projects.",
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+I'm happy to announce the launch of my new website, where I'll keep all the deets on my latest projects.
+
+This will be the go-to hub for everything I'm working on as well as any announcement and updates. If you'd like to follow my work, please bookmark it and sign up for my newsletter to stay up to date. You can also subscribe to [my Substack](https://jasonmelendez.substack.com/), as most of the flash fiction and articles I'm putting together will be released there.
+
+Thanks for visiting!
+
