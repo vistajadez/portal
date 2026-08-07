@@ -70,26 +70,29 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I'm Jason, independent writer and storyteller.
+            Hi, I'm Jason.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I enjoy traveling the world,
-              meeting amazing people, and finding inspiration everywhere for my real passion: 
-              writing and storytelling. I'm an emerging writer, an exciting thing to be
-              today where there are more ways than ever for creators to 
-              build audience platforms of our own, grow our communities ourselves, and collaborate together.
+              I love traveling, meeting interesting people, and finding inspiration wherever I go. 
+              Those experiences fuel my greatest passion: writing stories.
             </p>
             <p>
-              I'll post updates here on projects I'm working on,
-              snippets of articles or stories I've published
-              across various platforms and media, and links to
-              everything.
+              I'm an emerging writer, and there's never been a more exciting time to be one. 
+              Today, creators have more opportunities than ever to build their own audiences, 
+              grow meaningful communities, and collaborate with one another.
             </p>
             <p>
-              Thanks so much for reading. Lots of love.
+              Here you'll find updates on my latest projects, snippets from stories and articles 
+              I've published across different platforms, and links to everything I'm creating.
             </p>
-            <p>- JLM</p>
+            <p>
+              Thanks so much for stopping by, and thanks for reading.
+            </p>
+            <p>
+              Lots of love,<br />
+              - JLM
+            </p>
           </div>
         </div>
         <div className="lg:pl-20">

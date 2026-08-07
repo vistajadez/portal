@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: {
     template: '%s - Jason L Melendez',
     default:
-      'Jason L Melendez - Indie fiction author',
+      'Jason L Melendez - Stories Worth Getting Lost In',
   },
   description:
-    'I enjoy storytelling that strays into the dark and surrealistic. Check out my stories and online series that explore the liminal spaces between places.',
+    'Welcome to the official website of fiction writer Jason L. Melendez. I write stories that drift into the dark and surreal. Explore my fiction and online series that venture into the liminal spaces between places.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

@@ -303,11 +303,11 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Jason L Melendez - independent fiction writer.
+            Stories Worth Getting Lost In
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I enjoy storytelling that strays into the dark and surrealistic.
-            Check out my stories and online series that explore the liminal spaces between places.
+            Welcome to the official website of fiction writer Jason L. Melendez.
+            I write stories that drift into the dark and surreal. Explore my fiction and online series that venture into the liminal spaces between places.
           </p>
           <div className="mt-6 flex gap-6">
           <SocialLink
